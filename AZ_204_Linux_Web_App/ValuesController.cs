@@ -24,7 +24,8 @@ namespace AZ_204_Linux_Web_App
         {
             try
             {
-                return Ok(_appDBContext.Course.ToList());
+                return Ok("Returned From CICD");
+                //return Ok(_appDBContext.Course.ToList());
             }
             catch (Exception Ex)
             {
